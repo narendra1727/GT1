@@ -1,0 +1,22 @@
+.maindiv{
+    margin-top: 30px;
+    text-align: center;
+}
+
+#image{
+    margin-top: 20px;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 5vw;
+    transition: 2s;
+}
+
+
+#image:hover{
+    transform : scale(1.10);
+}
+
+button{
+    width: 200px;
+}
